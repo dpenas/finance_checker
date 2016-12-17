@@ -12,6 +12,7 @@ class CSVParser:
 		return transaction
 
 	def parse(self):
-		return self.parseCsv('test.csv')
+		print(self.parseCsv('test.csv'))
 
-
+potatoes = CSVParser()
+potatoes.parse()
